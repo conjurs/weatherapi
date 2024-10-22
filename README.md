@@ -1,1 +1,1 @@
-Weather API Backend using express nodemon js + Frontend using react, js
+Weather API Backend with middleware using express nodemon js in memory + Frontend react login 
