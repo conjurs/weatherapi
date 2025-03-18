@@ -32,10 +32,10 @@ const WeatherApp = ({ token }) => {
       {error && <p className="error">{error}</p>}
       {weather && (
         <div className="weather-info">
-          <h3>{weather.name}</h3>
-          <p>{weather.weather[0].description}</p>
-          <p>Temperature: {weather.main.temp}°C</p>
-          <p>Wind Speed: {weather.wind.speed} m/s</p>
+          <h3>{weather.city}</h3>
+          <p>{weather.description}</p>
+          <p>Temperature: {weather.temperature}°C</p>
+          <p>Wind Speed: {weather.windSpeed} m/s</p>
         </div>
       )}
     </div>
